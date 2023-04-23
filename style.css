@@ -1,0 +1,147 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*variables */
+:root{
+  --main-color: yellow;
+  --main-text-color: white;
+  --border-color: white;
+  --bio-bg-color: black;
+  --bio-border-color: white;
+  --about-bg-color: white;
+
+}
+ /* Genereal */ 
+ .highlight {
+    color: var(--main-color);
+ }
+
+ /* Containers */ 
+  #container {
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text-color);
+  }
+  #bio-container {
+    flex: 1 1 20%;
+    min-height: 100vh;
+    background-color: var(--bio-bg-color);
+    text-align: center;
+    padding: 30px 12px;
+    border-right: 5px solid var(--bio-border-color);
+  }
+  #about-container{
+    flex: 1 1 80%;
+    background-color: var(--about-bg-color);
+    min-height: 100vh;
+    padding: 50px;
+  }
+ 
+
+  /* Bio container */
+  #bio-container h2 {
+    margin-bottom: 25px;
+  }
+  
+  #bio-container p {
+    margin-bottom: 20px; 
+  }
+
+  #bio-img {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+  }
+
+  #bio-container #welcome-text {
+    font-weight:bold;
+  }
+
+  #email-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #email-container ion-icon,
+  #email-container a {
+    flex: 1 1 0;
+  }
+
+  #email-container a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    max-width: 225px;
+  }
+  #email-container ion-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    margin-right: 5px;
+    max-width: 20px;
+  }
+
+  #outras-redes {
+    color: black;
+    font-size: 25px;
+    max-width: 30px;
+  }
+  
+.principal-titulo {
+font-family: Candara;
+font-size: 50px;
+text-transform: uppercase;
+text-align: center;
+color: yellow;
+margin-bottom: 50px;
+}
+.titulo-avulso {
+text-align: center;
+color: yellow;
+margin-top: 10px;
+margin-bottom: 60px;
+font-family: Candara;
+}
+
+.p-1 {
+    padding: 25px;
+    border: 2px dashed black;
+    overflow: hidden;
+    text-align: justify;
+    font-family: Candara;
+    margin: 4px;
+    line-height: 30px;
+  }
+  
+nav ul {
+    list-style: none; 
+    text-align: center;
+    background-color: yellow; 
+  }
+  
+  nav li {
+    display: inline-block; 
+    margin: 0 30px; 
+    font-family: Candara;
+  }
+  
+  nav a {
+    text-decoration: none; 
+    color: black; 
+    
+  }
+.container2 {
+    background-color: black;
+    padding: 20px;
+}
+h4 {
+    color: yellow;
+    text-align: end;
+    margin-bottom: 0px;
+}
+  
+.description {
+    font-family: Candara;
+}
