@@ -55,8 +55,40 @@
     height: 10px;
     border-radius: 50%;
     margin-bottom: 25px;
-    
   }
+
+  #bio-container #welcome-text {
+    font-weight:bold;
+  }
+
+  #email-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #email-container ion-icon,
+  #email-container a {
+    flex: 1 1 0;
+  }
+
+  #email-container a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    max-width: 225px;
+  }
+  #email-container ion-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    margin-right: 5px;
+    max-width: 20px;
+  }
+
+  #outras-redes {
+    color: black;
+    font-size: 25px;
+    max-width: 30px;
+  }
+  
 .principal-titulo {
 font-family: Candara;
 font-size: 50px;
@@ -100,7 +132,7 @@ nav ul {
     color: black; 
     
   }
-.container {
+.container2 {
     background-color: black;
     padding: 20px;
 }
