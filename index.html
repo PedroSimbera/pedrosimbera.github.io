@@ -10,42 +10,43 @@
     <!--Dev Icon Fonts -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
-<body class="body">
-    <div class="container2">
-    <h1 class="principal-titulo"> Sobre mim</h1> 
-   
-    <nav class="menu">
-        <ul>
-            <li><a href="http://lattes.cnpq.br/0039169774814014" target="_blank"><ion-icon id="outras-redes" name="document-text"></ion-icon></a></li>
-            <li><a href="https://www.linkedin.com/in/pedro-simbera-b90040170/" target="_blank"><ion-icon id="outras-redes" name="logo-linkedin"></ion-icon></a></li>
-            <li><a href="https://github.com/PedroSimbera" target="_blank"><ion-icon id="outras-redes" name="logo-github"></ion-icon></a></li>
-            <li><a href="https://www.facebook.com/pedro.simbera/" target="_blank"><ion-icon id="outras-redes" name="logo-facebook"></ion-icon> </a></li>
-        </ul>
-    </nav>
-    </div>
-    
+<body>
+    <header id="main-header">
+        <div id="menu-header">
+            <h1 class="principal-titulo"> Portifólio</h1>
+            <h2 class="titulo-avulso">Conheça minhas outras redes:</h2> 
+       
+            <nav class="menu">
+                <ul>
+                    <li><a href="http://lattes.cnpq.br/0039169774814014" target="_blank"><ion-icon id="outras-redes" name="document-text"></ion-icon></a></li>
+                    <li><a href="https://www.linkedin.com/in/pedro-simbera-b90040170/" target="_blank"><ion-icon id="outras-redes" name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="https://github.com/PedroSimbera" target="_blank"><ion-icon id="outras-redes" name="logo-github"></ion-icon></a></li>
+                    <li><a href="https://www.facebook.com/pedro.simbera/" target="_blank"><ion-icon id="outras-redes" name="logo-facebook"></ion-icon> </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <main id="container">
         <aside id="bio-container">
-            <h2>Pedro Simbera</h2>
-            <img class= "bio-img" src="profile-pic.png" alt="Esse é o Pedro">
+            <h2 class="my">Pedro Simbera</h2>
+            <img id= "bio-img" src="profile-pic.png" alt="Esse é o Pedro">
             <p>Olá, sou Pedro Simbera e sou formado em <span class="highlight"> Direito</span>, pós-graduando em <span class="highlight"> Data Science</span>  e faço faculdade de <span class="highlight"> Desenvolvimento de Software.</span></p>
             <p id="welcome-text">Seja bem-vindo!</p>
             
             <div id="email-container">
-            <ion-icon name="mail-outline"></ion-icon><a href="mailto:pedrosimbera@hotmail.com">pedrosimbera@hotmail.com</a>
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:pedrosimbera@hotmail.com">pedrosimbera@hotmail.com</a>
             </div>
+            <br>
+            <a href="#" id="btn-projects"> <ion-icon name="share-social-outline"></ion-icon><span>   Projetos</span></a>    
         
         </aside>
-    
-    
-    </main>
    
     <section id="about-container">
-        <h1 id="name">Pedro Simbera</h1>
-        <p class="p-1"> Graduando em Desenvolvimento de Software Multiplataformas na Faculdade de Tecnologia do Estado de São Paulo (Fatec). Cursando especialização em Data Science. Bacharel em Direito pela Pontifícia Universidade Católica de Campinas (PUC-Campinas); Onde foi monitor da disciplina de Direitos Humanos I e II (2020 - 2021); membro voluntário da frente migração no Núcleo de Ensino Clínica em Direitos Humanos (2019-2021); Pesquisou em Iniciação Científica por dois ciclos (vigência de 2020 - 2021 e 2021-2022) ambas as pesquisas foram com bolsa PIBIC/CNPq. Foi membro voluntário da Rede de Acesso à Justiça do MORHAN; Foi integrante do NECDH no projeto temático sobre hanseníase e as pespectivas de reparação as graves violações aos direitos humanos decorrentes das políticas de profilaxia da hanseníase; Foi integrante e pesquisador do Núcleo de Estudos e Pesquisa em Direito Internacional da UERJ (NEPEDI) no eixo Direitos Humanos.</p>
-        <a href="#" id="btn-projects"> <ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+        <h1 id="name">Um pouco sobre mim</h1>
+        <p class="description"> Graduando em Desenvolvimento de Software Multiplataformas na Faculdade de Tecnologia do Estado de São Paulo (Fatec). Cursando especialização em Data Science. Bacharel em Direito pela Pontifícia Universidade Católica de Campinas (PUC-Campinas); Onde foi monitor da disciplina de Direitos Humanos I e II (2020 - 2021); membro voluntário da frente migração no Núcleo de Ensino Clínica em Direitos Humanos (2019-2021); Pesquisou em Iniciação Científica por dois ciclos (vigência de 2020 - 2021 e 2021-2022) ambas as pesquisas foram com bolsa PIBIC/CNPq. Foi membro voluntário da Rede de Acesso à Justiça do MORHAN; Foi integrante do NECDH no projeto temático sobre hanseníase e as pespectivas de reparação as graves violações aos direitos humanos decorrentes das políticas de profilaxia da hanseníase; Foi integrante e pesquisador do Núcleo de Estudos e Pesquisa em Direito Internacional da UERJ (NEPEDI) no eixo Direitos Humanos.</p>
         <h2 id="skills-section-tittle">Minhas Skills</h2>
-        <p class="description">Conheça as tecnologias que estou aprimorando:</p>
+        <p class="description2">Conheça as tecnologias que estou aprimorando:</p>
         <div id="skills-container">
             <div id="skills-box">
                 <p class="skills-tittle">Front-end</p>
@@ -62,6 +63,7 @@
             </div>
             <div id="skills-box">
                 <p class="skills-tittle">Databases</p>
+                <i class="devicon-oracle-original"></i>
                 <!--<i class="devicon-html5-plain colored"></i>
                 <i class="devicon-css3-plain colored"></i>
                 <i class="devicon-javascript-plain colored"></i>-->
@@ -85,8 +87,12 @@
                 <i class="devicon-javascript-plain colored"></i>-->
             </div>
         </div>
-    </section>
 
+        <h2 id="skills-section-tittle">Meus cursos</h2>
+        
+    </section>
+</main>
+    <!--Ion Icon-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
